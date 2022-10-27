@@ -8,6 +8,8 @@ We can call load(stream, null) to bypass the integrity check and then call getKe
 
 #POC code
 java version "1.8.0_171"
+
+
 I wrote some code to read JCEKS/JKS keystore and extract final hash of keystore password and read key without knowing keystore password(You still need to know the key password).
 You can compile the code and run command like: 
 
